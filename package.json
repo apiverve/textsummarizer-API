@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/textsummarizer",
+  "version": "1.0.0",
+  "description": "Text Summarizer is a simple tool for summarizing text. It returns a summary of the text.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/textsummarizer-API.git"
+  },
+  "keywords": [
+    "text summarizer"," text summarizer api"," text summarizer tool"," text summarizer software"," text summarizer service"," text summarizer library"," text summarizer sdk"," text summarizer code"," text summarizer script"," text summarizer program"," text summarizer application"," text summarizer app"," text summarizer utility"," text summarizer helper"," text summarizer helper tool"," text summarizer helper software"," text summarizer helper service"," text summarizer helper library"," text summarizer helper sdk"," text summarizer helper code"," text summarizer helper script"," text summarizer helper program"," text summarizer helper application"," text summarizer helper app"," text summarizer helper tool"," text summarizer helper utility"," text summarizer helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/textsummarizer-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/textsummarizer-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
