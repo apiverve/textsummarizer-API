@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/textsummarizer-API.git"
   },
   "keywords": [
-    "text summarizer"," text summarizer api"," text summarizer tool"," text summarizer software"," text summarizer service"," text summarizer library"," text summarizer sdk"," text summarizer code"," text summarizer script"," text summarizer program"," text summarizer application"," text summarizer app"," text summarizer utility"," text summarizer helper"," text summarizer helper tool"," text summarizer helper software"," text summarizer helper service"," text summarizer helper library"," text summarizer helper sdk"," text summarizer helper code"," text summarizer helper script"," text summarizer helper program"," text summarizer helper application"," text summarizer helper app"," text summarizer helper tool"," text summarizer helper utility"," text summarizer helper"
+    "text summarizer","text summarizer api","text summarizer tool","text summarizer software","text summarizer service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
