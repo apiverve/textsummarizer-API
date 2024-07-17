@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/textsummarizer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Text Summarizer is a simple tool for summarizing text. It returns a summary of the text.",
   "main": "index.js",
   "scripts": {
