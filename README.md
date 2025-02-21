@@ -75,7 +75,7 @@ api.execute(query, function (error, data) {
     "originalWords": 67,
     "summaryWords": 30,
     "percentDifference": 44.78,
-    "summary": "Headlines can be used to focus the reader's attention on a particular (or main) part of the article. A news article can include accounts of eyewitnesses to the happening event."
+    "summary": "A news article can include accounts of eyewitnesses to the happening event. Headlines can be used to focus the reader's attention on a particular (or main) part of the article."
   },
   "code": 200
 }
@@ -103,7 +103,7 @@ All usage of the APIVerve website, API, and services is subject to the [APIVerve
 ## License
 Licensed under the The MIT License (MIT)
 
-Copyright (&copy;) 2024 APIVerve, and Evlar LLC
+Copyright (&copy;) 2025 APIVerve, and EvlarSoft LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
