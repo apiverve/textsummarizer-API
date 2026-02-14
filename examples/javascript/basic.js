@@ -9,23 +9,15 @@ const API_KEY = process.env.APIVERVE_API_KEY || 'YOUR_API_KEY_HERE';
 const API_URL = 'https://api.apiverve.com/v1/textsummarizer';
 
 /**
- * Make a POST request to the Text Summarizer API
+ * Make a GET request to the Text Summarizer API
  */
 async function callTextSummarizerAPI() {
   try {
-    // Request body
-    const requestBody &#x3D; {
-    &quot;text&quot;: &quot;A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader&#x27;s attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.&quot;,
-    &quot;sentences&quot;: 2
-};
-
     const response = await fetch(API_URL, {
-      method: 'POST',
+      method: 'GET',
       headers: {
-        'x-api-key': API_KEY,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(requestBody)
+        'x-api-key': API_KEY
+      }
     });
 
     // Check if response is successful
