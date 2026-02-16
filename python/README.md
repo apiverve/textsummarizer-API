@@ -44,7 +44,10 @@ from apiverve_textsummarizer.apiClient import TextsummarizerAPIClient
 # Initialize the client with your APIVerve API key
 api = TextsummarizerAPIClient("[YOUR_API_KEY]")
 
-query = { "text": "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.", "sentences": 2 }
+query = {
+    "text": "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    "sentences": 2
+}
 
 try:
     # Make the API call
@@ -82,7 +85,10 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```python
-query = { "text": "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.", "sentences": 2 }
+query = {
+    "text": "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    "sentences": 2
+}
 ```
 
 ###### Simple Request
@@ -123,7 +129,10 @@ from apiverve_textsummarizer.apiClient import TextsummarizerAPIClient, Textsumma
 
 api = TextsummarizerAPIClient("[YOUR_API_KEY]")
 
-query = { "text": "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.", "sentences": 2 }
+query = {
+    "text": "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    "sentences": 2
+}
 
 try:
     result = api.execute(query)
@@ -144,7 +153,10 @@ from apiverve_textsummarizer.apiClient import TextsummarizerAPIClient, Textsumma
 
 api = TextsummarizerAPIClient("[YOUR_API_KEY]")
 
-query = { "text": "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.", "sentences": 2 }
+query = {
+    "text": "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    "sentences": 2
+}
 
 try:
     result = api.execute(query)
@@ -178,7 +190,10 @@ The client supports the context manager protocol for automatic resource cleanup:
 ```python
 from apiverve_textsummarizer.apiClient import TextsummarizerAPIClient, TextsummarizerAPIClientError
 
-query = { "text": "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.", "sentences": 2 }
+query = {
+    "text": "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    "sentences": 2
+}
 
 # Using context manager ensures proper cleanup
 with TextsummarizerAPIClient("[YOUR_API_KEY]") as api:
@@ -204,7 +219,10 @@ from apiverve_textsummarizer.apiClient import TextsummarizerAPIClient
 # Enable debug mode
 api = TextsummarizerAPIClient("[YOUR_API_KEY]", debug=True)
 
-query = { "text": "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.", "sentences": 2 }
+query = {
+    "text": "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    "sentences": 2
+}
 
 # Debug information will be printed to console
 result = api.execute(query)
@@ -219,8 +237,12 @@ from apiverve_textsummarizer.apiClient import TextsummarizerAPIClient
 
 api = TextsummarizerAPIClient("[YOUR_API_KEY]")
 
+query = {
+    "text": "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    "sentences": 2
+}
+
 try:
-    query = { "text": "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.", "sentences": 2 }
     result = api.execute(query)
     print(result)
 finally:
