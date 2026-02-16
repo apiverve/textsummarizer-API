@@ -61,8 +61,8 @@ class Program
         var apiClient = new TextSummarizerAPIClient("[YOUR_API_KEY]");
 
         var queryOptions = new QueryOptions {
-  text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
-  sentences = 2
+    text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    sentences = 2
 };
 
         // Make the API call
@@ -126,8 +126,8 @@ public class Example
         var apiClient = new TextSummarizerAPIClient("[YOUR_API_KEY]");
 
         var queryOptions = new QueryOptions {
-  text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
-  sentences = 2
+    text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    sentences = 2
 };
 
         var response = await apiClient.ExecuteAsync(queryOptions);
@@ -159,8 +159,8 @@ public class Example
         var apiClient = new TextSummarizerAPIClient("[YOUR_API_KEY]");
 
         var queryOptions = new QueryOptions {
-  text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
-  sentences = 2
+    text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    sentences = 2
 };
 
         var response = apiClient.Execute(queryOptions);
@@ -197,8 +197,8 @@ public class Example
         var apiClient = new TextSummarizerAPIClient("[YOUR_API_KEY]");
 
         var queryOptions = new QueryOptions {
-  text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
-  sentences = 2
+    text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    sentences = 2
 };
 
         try
@@ -254,8 +254,8 @@ public class Example
         apiClient.SetRetryDelay(2000);     // Wait 2 seconds between retries
 
         var queryOptions = new QueryOptions {
-  text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
-  sentences = 2
+    text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    sentences = 2
 };
 
         try
@@ -296,8 +296,8 @@ apiClient.AddCustomHeader("X-Custom-Header", "custom-value");
 apiClient.AddCustomHeader("X-Request-ID", Guid.NewGuid().ToString());
 
 var queryOptions = new QueryOptions {
-  text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
-  sentences = 2
+    text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    sentences = 2
 };
 
 var response = await apiClient.ExecuteAsync(queryOptions);
@@ -323,8 +323,8 @@ apiClient.SetLogger(message =>
 });
 
 var queryOptions = new QueryOptions {
-  text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
-  sentences = 2
+    text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    sentences = 2
 };
 
 var response = await apiClient.ExecuteAsync(queryOptions);
@@ -342,8 +342,8 @@ apiClient.SetMaxRetries(3);           // Retry up to 3 times (default: 0, max: 3
 apiClient.SetRetryDelay(1500);        // Wait 1.5 seconds between retries (default: 1000ms)
 
 var queryOptions = new QueryOptions {
-  text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
-  sentences = 2
+    text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    sentences = 2
 };
 
 var response = await apiClient.ExecuteAsync(queryOptions);
@@ -354,12 +354,13 @@ var response = await apiClient.ExecuteAsync(queryOptions);
 The API client implements `IDisposable` for proper resource cleanup:
 
 ```csharp
+var queryOptions = new QueryOptions {
+    text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
+    sentences = 2
+};
+
 using (var apiClient = new TextSummarizerAPIClient("[YOUR_API_KEY]"))
 {
-    var queryOptions = new QueryOptions {
-  text = "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.",
-  sentences = 2
-};
     var response = await apiClient.ExecuteAsync(queryOptions);
     Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(response, Newtonsoft.Json.Formatting.Indented));
 }
