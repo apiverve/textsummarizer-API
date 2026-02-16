@@ -26,7 +26,7 @@ Add the dependency:
 
 ```gradle
 dependencies {
-    implementation 'com.github.apiverve:textsummarizer-api:1.1.13'
+    implementation 'com.github.apiverve:textsummarizer-api:1.1.14'
 }
 ```
 
@@ -47,8 +47,8 @@ TextSummarizerAPIClient client = new TextSummarizerAPIClient("YOUR_API_KEY");
 try {
     // Prepare request parameters
     Map<String, Object> parameters = new HashMap<>();
-    parameters.put("text", "");
-    parameters.put("sentences", 3);
+    parameters.put("text", "A news article can include accounts of eyewitnesses to the happening event. It can contain photographs, accounts, statistics, graphs, recollections, interviews, polls, debates on the topic, etc. Headlines can be used to focus the reader's attention on a particular (or main) part of the article. The writer can also give facts and detailed information following answers to general questions like who, what, when, where, why and how.");
+    parameters.put("sentences", 2);
 
     // Execute the request
     APIResponse response = client.execute(parameters);
