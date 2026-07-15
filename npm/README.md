@@ -128,7 +128,7 @@ async function makeRequest() {
     "originalWords": 67,
     "summaryWords": 30,
     "percentDifference": 44.78,
-    "summary": "A news article can include accounts of eyewitnesses to the happening event. Headlines can be used to focus the reader's attention on a particular (or main) part of the article."
+    "summary": "Headlines can be used to focus the reader's attention on a particular (or main) part of the article. A news article can include accounts of eyewitnesses to the happening event."
   }
 }
 ```
