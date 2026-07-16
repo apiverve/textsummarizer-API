@@ -20,6 +20,6 @@ namespace APIVerve.API.TextSummarizer
         /// The length of the summary (number of sentences)
         /// </summary>
         [JsonProperty("sentences")]
-        public string Sentences { get; set; }
+        public double? Sentences { get; set; }
     }
 }
