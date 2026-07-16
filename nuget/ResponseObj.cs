@@ -25,20 +25,35 @@ namespace APIVerve.API.TextSummarizer
 
         [JsonProperty("data")]
         public Data Data { get; set; }
+
+        [JsonProperty("premium")]
+        public Premium Premium { get; set; }
     }
 
     public partial class Data
     {
         [JsonProperty("originalWords")]
-        public long OriginalWords { get; set; }
+        public long? OriginalWords { get; set; }
 
         [JsonProperty("summaryWords")]
-        public long SummaryWords { get; set; }
+        public long? SummaryWords { get; set; }
 
         [JsonProperty("percentDifference")]
-        public double PercentDifference { get; set; }
+        public double? PercentDifference { get; set; }
 
         [JsonProperty("summary")]
         public string Summary { get; set; }
+    }
+
+    public partial class Premium
+    {
+        [JsonProperty("message")]
+        public string Message { get; set; }
+
+        [JsonProperty("upgrade_url")]
+        public Uri UpgradeUrl { get; set; }
+
+        [JsonProperty("locked_fields")]
+        public string[] LockedFields { get; set; }
     }
 }
